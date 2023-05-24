@@ -1,5 +1,5 @@
 require('dotenv').config()
 
-let buffer = process.env.BOT_KEY;
+let buffer = process.env.USER_KEY;
 
 console.log(buffer);
