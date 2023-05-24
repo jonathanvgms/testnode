@@ -11,7 +11,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      BOT_KEY: asd
+      BOT_KEY: "${{ secrets.BOT_KEY }}"
 
     strategy:
       matrix:
